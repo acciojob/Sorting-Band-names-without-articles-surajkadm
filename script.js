@@ -11,4 +11,4 @@ touristSpots.map((element)=>{
 	},"")
 	return reducedList;
 })
-console.log(touristSpots)
+document.getElementById("band").innerHTML = touristSpots;
