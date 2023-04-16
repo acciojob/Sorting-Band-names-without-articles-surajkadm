@@ -9,6 +9,6 @@ touristSpots.map((element)=>{
 		}
 		return prev;
 	},"")
-	return reducedList;
+	return reducedList
 })
-document.getElementById("band").innerHTML = touristSpots;
+console.log(touristSpots)
